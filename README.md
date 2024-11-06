@@ -17,7 +17,7 @@ En este manual podrás encontrar una guía paso a paso para configurar un proyec
 Este manual está diseñado para ayudarte a comprender el flujo de la integración de la pasarela para ayudarte a aprovechar al máximo tu proyecto y facilitar tu experiencia de desarrollo.
 
 <p align="center">
-  <img src="https://i.postimg.cc/FzGzG9Jd/Whats-App-Image-2024-01-30-at-10-02-40.jpg" alt="Formulario" width="350"/>
+  <img src="https://github.com/izipay-pe/Imagenes/blob/main/formulario_incrustado/Imagen-Formulario-Incrustado.png" alt="Formulario" width="350"/>
 </p>
 
 <a name="Requisitos_Previos"></a>
@@ -28,8 +28,8 @@ Este manual está diseñado para ayudarte a comprender el flujo de la integraci�
 - Extraer credenciales del Back Office Vendedor. [Guía Aquí](https://github.com/izipay-pe/obtener-credenciales-de-conexion)
 - Debe instalar la [versión de LTS node.js](https://nodejs.org/es/).
 - Para este proyecto utilizamos la herramienta Visual Studio Code.
-  > [!NOTE]
-  > Tener en cuenta que, para que el desarrollo de tu proyecto, eres libre de emplear tus herramientas preferidas.
+> [!NOTE]
+> Tener en cuenta que, para que el desarrollo de tu proyecto, eres libre de emplear tus herramientas preferidas.
 
 ## 3. Despliegue
 
@@ -255,8 +255,8 @@ La IPN es una notificación de servidor a servidor (servidor de Izipay hacia el 
 Los datos transmitidos en la IPN se reciben y analizan mediante un script que el vendedor habrá desarrollado en su servidor.
 
 - Ver manual de implementación de la IPN. [Aquí](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/kb/payment_done.html)
-- Vea el ejemplo de la respuesta IPN con PHP. [Aquí](https://github.com/izipay-pe/Redirect-PaymentForm-IpnT1-PHP)
-- Vea el ejemplo de la respuesta IPN con NODE.JS. [Aquí](https://github.com/izipay-pe/Response-PaymentFormT1-Ipn)
+- Vea el ejemplo de la respuesta IPN con PHP. [Aquí](https://github.com/izipay-pe/Server-IPN-Php)
+- Vea el ejemplo de la respuesta IPN con NODE.JS. [Aquí](https://github.com/izipay-pe/Server-IPN-JavaScript)
 
 ## 7. Personalización
 
